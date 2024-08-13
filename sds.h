@@ -46,6 +46,11 @@ typedef long long ssize_t;
 #include <stdarg.h>
 #include <stdint.h>
 
+
+#define va_start(ap, param) __builtin_va_start(ap, param)
+#define va_end(ap)          __builtin_va_end(ap)
+#define va_arg(ap, type)    __builtin_va_arg(ap, type)
+
 typedef char *sds;
 
 /* Note: sdshdr5 is never used, we just access the flags byte directly.

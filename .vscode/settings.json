@@ -1,0 +1,15 @@
+{
+  "files.associations": {
+    "*.ans": "ansi",
+    "*.Forthon3": "makefile",
+    "*.tcl": "shellscript",
+    "*.v": "shellscript",
+    "*.yaml": "yaml",
+    ".Xresources": "shellscript",
+    "XTerm": "shellscript",
+    "*.py": "python",
+    "_*": "shellscript",
+    "*rc": "ini",
+    "alloc.h": "c"
+  }
+}

@@ -61,6 +61,11 @@
 
 #define OPENSSL_1_1_0 0x10100000L
 
+#define va_start(ap, param) __builtin_va_start(ap, param)
+#define va_end(ap)          __builtin_va_end(ap)
+#define va_arg(ap, type)    __builtin_va_arg(ap, type)
+
+
 void __redisSetError(redisContext *c, int type, const char *str);
 
 struct redisSSLContext {
