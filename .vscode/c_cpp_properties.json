@@ -4,7 +4,8 @@
             "name": "Mac",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/usr/local/include/hiredis"
+                "/usr/local/include/hiredis",
+                "/Applications/MATLAB_R2024a.app/extern/include"
             ],
             "macFrameworkPath": [
                 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"
@@ -20,7 +21,14 @@
                 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"
             ],
             "cStandard": "c11",
-            "compilerPath": "/usr/bin/clang"
+            "compilerPath": "/usr/bin/clang",
+            "defines": [
+                "MATLAB_MEX_FILE",
+                "R2018a"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true
+            }
         }
     ],
     "version": 4

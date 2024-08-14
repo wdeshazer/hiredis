@@ -11,5 +11,7 @@
     "_*": "shellscript",
     "*rc": "ini",
     "alloc.h": "c"
-  }
+  },
+  "C_Cpp.errorSquiggles": "disabled",
+  "makefile.configureOnOpen": true
 }

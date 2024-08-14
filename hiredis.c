@@ -43,6 +43,7 @@
 #include "sds.h"
 #include "async.h"
 #include "win32.h"
+#include "mex.h"
 
 #define va_start(ap, param) __builtin_va_start(ap, param)
 #define va_end(ap)          __builtin_va_end(ap)
