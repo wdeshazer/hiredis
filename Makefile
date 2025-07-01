@@ -280,7 +280,7 @@ dep:
 	$(CC) $(CPPFLAGS) $(CFLAGS) -MM *.c
 
 INSTALL?= cp -pPR
-
+	
 $(PKGCONFNAME): hiredis.h
 	@echo "Generating $@ for pkgconfig..."
 	@echo prefix=$(PREFIX) > $@
